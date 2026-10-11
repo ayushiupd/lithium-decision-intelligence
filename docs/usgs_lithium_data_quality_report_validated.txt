@@ -1,0 +1,57 @@
+USGS MCS lithium production — original-PDF validation report
+Validation run: 2026-10-09
+==========================================================
+
+INPUT PRESERVATION
+Raw extraction: usgs_lithium_world_production_table_raw_extract(1).csv
+Raw rows: 290
+Raw SHA-256 before: 153a380447f8cb0a0428a4bf0ed3df91624c58471ce4b39a6d787e31ddb24bf9
+Raw SHA-256 after:  153a380447f8cb0a0428a4bf0ed3df91624c58471ce4b39a6d787e31ddb24bf9
+Raw file unchanged: YES
+Original MCS PDFs available and inspected: 17 editions (MCS2010–MCS2026).
+
+STRUCTURED DATASET
+Structured source-vintage rows for reporting years 2010–2025: 314
+Numeric values: 284
+W / withheld: 30
+Dash / zero where explicitly defined: 20
+Unavailable tokens: 0
+Verified records: 314
+Provisional records: 0
+Unresolved records: 0
+Original PDF coordinate-based production-cell checks passed: 314 of 314.
+All rows point to PDF page 2; printed page number is included where visible in the original PDF.
+
+PRIOR UNRESOLVED RECORDS
+Previous unresolved records: 38
+Resolved against original PDF tables/footnotes: 38
+Still unresolved: 0
+The MCS2026 Argentina and Chile 2024 standalone superscript 5 is footnote 5 = Reported, not a production digit. The production values are 13,800 and 48,900.
+Merged world-total footnote digits resolved from the original PDFs: MCS2019 69,000 / 85,000; MCS2020 95,000 / 77,000; MCS2021 86,000 / 82,000; MCS2022 82,500 / 100,000; MCS2023 107,000 / 130,000; MCS2024 146,000 / 180,000; MCS2025 204,000 / 240,000; MCS2026 222,000 / 290,000. Superscript markers are footnotes, not digits in the production values.
+The edition-specific world-total footnotes state that the totals exclude U.S. production. W remains withheld; the table footnote defines em dash as zero.
+
+REPORTING-YEAR COVERAGE
+All target years 2010–2025 have at least one source table.
+2010–2024 have two overlapping publication editions per year; 2025 appears in MCS2026 only.
+No absent country-year has been imputed as zero. Country coverage varies across editions.
+
+VINTAGE COMPARISONS
+Pairwise comparisons: 148 including 2 explicit country-list coverage changes for reporting year 2024.
+Numeric revisions: 109
+Status/token changes: 1
+Country-list coverage changes: 2
+All source vintages are retained; no earlier value was overwritten.
+For 2024, MCS2026 reports Argentina 13,800 and Mali 770; MCS2025 had Argentina 18,000 and Namibia 2,700, and no Mali row. The MCS2026 narrative explicitly states that significant revisions were made to Argentina and Mali. Namibia's absence in MCS2026 is not treated as a country-level zero.
+
+WORLD-TOTAL RECONCILIATION
+Edition/reporting-year checks: 31.
+Checks within 5% diagnostic envelope: 31.
+Checks outside 5% envelope: 0.
+Reconciliation compares the printed rounded total with the sum of numeric named-country production excluding the United States. It is diagnostic only: the total excludes U.S. production, displayed country values may be rounded estimates, and the total is not adjusted to match the country sum.
+
+UNITS / PAGE REFERENCES
+MCS2010–MCS2021 state metric tons of lithium content unless otherwise noted. MCS2022–MCS2023 say metric tons of contained lithium unless otherwise noted; MCS2024–MCS2026 say metric tons, lithium content, unless otherwise specified. The production table is on PDF page 2 in all supplied editions. Printed page numbers are recorded where visible; recent editions without a visible printed page label have that field blank.
+MCS2010 was inspected but its table covers 2008 and 2009, so it contributes no rows to the 2010–2025 output.
+
+TRACEABILITY
+The clean CSV contains the source PDF filename, direct official URL, SHA-256, PDF page, printed page where visible, table name, source cell token, original PDF cell token extracted by coordinates, and the previous raw extraction token. The raw input CSV remains byte-for-byte unchanged.

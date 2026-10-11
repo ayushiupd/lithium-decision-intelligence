@@ -1,0 +1,9 @@
+Implementation status at package creation
+=========================================
+Completed: project folder structure, PostgreSQL schema, vintage-preserving ingestion script,
+analytical views and SQL queries, CSV EDA script, Streamlit/Plotly dashboard, Windows setup docs.
+
+Not claimed: PostgreSQL import has NOT been executed from this packaging environment. The user's
+local PostgreSQL instance is not accessible/verified here. Run scripts/ingest_production.py on the
+Windows machine with .env configured; its successful output and SQL verification queries are the
+confirmation of database population.
